@@ -1,10 +1,10 @@
-# noginx
+# nginx-anamoly-detecter
 
 A real-time NGINX anomaly detection and alert system built with FastAPI, scikit-learn, and Python.
 
 ## What it does
 
-noginx watches your NGINX access logs in real time. Every incoming log line is parsed, feature-extracted, and sent to a FastAPI backend running an Isolation Forest ML model. If an anomaly is detected, it sends an email alert with details about the suspicious request.
+nginx-anamoly-detecter watches your NGINX access logs in real time. Every incoming log line is parsed, feature-extracted, and sent to a FastAPI backend running an Isolation Forest ML model. If an anomaly is detected, it sends an email alert with details about the suspicious request.
 
 ## Tech Stack
 
@@ -36,8 +36,8 @@ Verify it's running by visiting `http://localhost` in your browser.
 
 ```bash
 cd ~
-git clone https://github.com/YOUR_USERNAME/noginx.git
-cd noginx
+git clone https://github.com/YOUR_USERNAME/nginx-anamoly-detecter.git
+cd nginx-anamoly-detecter
 ```
 
 ### 3. Create and activate a virtual environment
